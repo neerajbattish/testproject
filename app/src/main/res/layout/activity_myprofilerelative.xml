@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="24dp"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+    <ImageView
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:layout_gravity="center"
+            tools:src="@drawable/small_pic"
+            android:id="@+id/imageView"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"/>
+
+
+
+
+
+
+    <TextView
+            android:text="Tony Stark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="24sp"
+            android:textColor="#222222"
+            android:textStyle="bold"
+            android:id="@+id/textView"
+            android:layout_marginBottom="8dp"
+    android:layout_toRightOf="@+id/imageView"/>
+    <TextView
+            android:text="TonyStark@gmail.com"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="14sp"
+            android:textColor="#555555"
+            android:textStyle="bold"
+            android:id="@+id/textView2"
+            android:layout_marginBottom="8dp"
+            android:layout_toRightOf="@+id/imageView"
+            android:layout_below="@+id/textView"
+    />
+    <TextView
+            android:text="+91xxxxxxxx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="14sp"
+            android:textColor="#555555"
+            android:textStyle="bold"
+            android:id="@+id/textView3"
+            android:layout_marginBottom="16dp"
+            android:layout_toRightOf="@+id/imageView"
+            android:layout_below="@+id/textView2"
+    />
+</RelativeLayout>
+
+
+<LinearLayout android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+android:orientation="vertical">
+    <Button
+            android:text="Education"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:id="@+id/button"
+            android:layout_marginBottom="16dp"/>
+    <Button
+            android:text="Work Exprience"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:id="@+id/button2"/>
+
+
+</LinearLayout>
+
+
+
+</LinearLayout>
